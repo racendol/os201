@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Rocky Arkan Adnan Ahmad | URL"
-url: /URLs/
+permalink: /URLs/
 theme: jekyll-theme-cayman
 ---
 
