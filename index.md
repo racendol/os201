@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Rocky Arkan Adnan Ahmad | os201"
 theme: jekyll-theme-cayman
 ---

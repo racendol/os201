@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Rocky Arkan Adnan Ahmad | URL"
 permalink: /URLs/
 theme: jekyll-theme-cayman
