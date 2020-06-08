@@ -1,26 +1,26 @@
-Script started on Mon 08 Jun 2020 02:04:05 PM WIB
-]0;rocky.arkan@badak: ~/os201/UASrocky.arkan@badak:~/os201/UAS$ exitls -FPS1="\$(eval \$PSTAMP)"[11Pecho $PSTAMPGitHubUser[8PPS1="$ "[4PexitPS1="$ "
-$ PS1="$ "[C[C[4Pexit[C[Cls -F[C[CPS1="\$(eval \$PSTAMP)"[C[C[11Pecho $PSTAMPGitHubUser
+Script started on Mon 08 Jun 2020 02:55:22 PM WIB
+]0;rocky.arkan@badak: ~/os201/UASrocky.arkan@badak:~/os201/UAS$ PS1="$ "
+$ echo $GitHubUser
 racendol
-$ echo $GitHubUser[C[C[8PPS1="$ "[C[C[4Pexit[C[Cls -F[C[CPS1="\$(eval \$PSTAMP)"[C[C[11Pecho $PSTAMP
+$ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$ echo $PSTAMPGitHubUser[C[C[8PPS1="$ "[C[C[4Pexit[C[Cls -F[C[CPS1="\$(eval \$PSTAMP)"
-200608-140423-0bf1-UAS/> PS1="\$(eval \$PSTAMP)"[11Pecho $PSTAMPGitHubUser[8PPS1="$ "echo $GitHubUser[4PPSTAMPPS1="\$(eval \$PSTAMP)"[Kls -F
-;  0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt
-200608-140431-998f-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt. asc > SHA1SUM
-200608-140443-2461-UAS/> sha1sum -c SHA1SUM 
+$ PS1="\$(eval \$PSTAMP)"
+200608-145542-623f-UAS/> ls -F
+0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt
+200608-145545-8163-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt. asc > SHA1SUM
+200608-145551-f10a-UAS/> sha1sum -c SHA1SUM 
 0000-mypub.txt: OK
 0001-mytest.txt: OK
 0002-mytest.txt.asc: OK
-200608-140452-0c3f-UAS/> gpg2 -sb -a SHA1SUM [1P
-200608-140500-6db1-UAS/> gpg2 --verify SHA1SUM.asc [1P
+200608-145556-78b9-UAS/> gpg2 -sb -a SHA1SUM [C[1P
+200608-145608-94e9-UAS/> gpg2 --verify SHA1SUM.asc [1P
 gpg: assuming signed data in `SHA1SUM'
-gpg: Signature made Mon 08 Jun 2020 02:05:00 PM WIB using RSA key ID 951557A1
+gpg: Signature made Mon 08 Jun 2020 02:56:07 PM WIB using RSA key ID 951557A1
 gpg: Good signature from "Rocky Arkan Adnan Ahmad <rocky.arkan@ui.ac.id>"
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: A6B0 9F6B 6BA2 BE7D 836C  F3E8 B381 828C 9515 57A1
-200608-140507-6b16-UAS/> exit
+200608-145617-d662-UAS/> exit
 exit
 
-Script done on Mon 08 Jun 2020 02:05:13 PM WIB
+Script done on Mon 08 Jun 2020 02:56:20 PM WIB
